@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+{% import 'macros.html' as macro%}
+
+{% block styles%}
+{{ super() }}
+<link rel="stylesheet" href="{{url_for('static',filename='index.css')}}">
+<link rel="shortcut icon"
+    href="https://icon2.kisspng.com/20180320/ttw/kisspng-free-newspaper-computer-icons-online-newspaper-goo-news-png-vector-5ab0db736c6dc7.2048426515215399554442.jpg">
+{% endblock %}
+
+{%block content%}
+<div>
+    <h1 class="text-center" style="color: rgb(216, 168, 97);">Your news source</h1>
+</div>
+
+{{macro.displaySourcesList(sources)}}
+{%endblock%}
