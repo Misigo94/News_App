@@ -3,7 +3,7 @@ from flask_script import Server,Manager
 
 app = create_app('development') 
 manager = Manager(app)
-manager.add_command('server',Server())
+manager.add_command('server',Server)
 
 @manager.command
 def test():
