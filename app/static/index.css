@@ -29,4 +29,5 @@ p {
 
 body {
     background-color: rgb(26, 24, 24);
+    background-image: url('/app/static/back.avif');
 }
