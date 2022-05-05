@@ -5,7 +5,7 @@
 This web-app allows the user to choose news from a particular source and view the articles within that source.
 
 ## Setup/Installation Requirements
-* Live site can be accessed from the following link:
+* Live site can be accessed from the following link:https://martin-news.herokuapp.com/
 
 
 ### Known Bugs
